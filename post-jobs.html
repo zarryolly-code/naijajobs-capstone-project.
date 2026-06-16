@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Job - NaijaJobs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h2>NaijaJobs</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="detail-box">
+        <h2>Post a Job</h2>
+
+        <form id="jobForm">
+    <input type="text" id="title" placeholder="Job title" required>
+    <input type="text" id="company" placeholder="Company Name" required>
+    <input type="text" id="location" placeholder="Location" required>
+    <input type="text" id="salary" placeholder="Salary" required>
+
+    <select id="type">
+        <option value="Full-time">Full-time</option>
+        <option value="Part-time">Part-time</option>
+        <option value="Contract">Contract</option>
+    </select>
+
+    <textarea id="description" placeholder="Job Description" required></textarea>
+    <button type="submit">Post Job</button>
+
+     </form>
+    </div>
+    
+    <script src="js/post.js"></script>
+    
+</body>
+</html>

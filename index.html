@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaJobs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!--NAVBAR-->
+<header class="navbar">
+    <h2>NaijaJobs</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="jobs.html">jobs</a>
+        <a href="post-jobs.html">Post Job</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>    
+
+<!--HERO-->
+<section class="hero">
+    <h1>Find Jobs in Nigeria</h1>
+    <p>Search thousands of opportunities</p>
+
+    <input type="text" id="searchInput" placeholder="Search jobs or companies...">
+</section>
+
+<!--JOB LIST-->
+<section>
+    <h2 style="text-align: center;">Featured Jobs</h2>
+    <div id="jobContainer" class="job-grid"></div>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
