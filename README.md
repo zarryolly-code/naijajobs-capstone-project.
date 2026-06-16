@@ -60,6 +60,13 @@ This project was developed using HTML, CSS, and JavaScript as part of a Software
 - User authentication
 - Database integration
 - Job application functionality
+  
+---
+
+## Demo Video
+https://drive.google.com/drive/folders/1PZkcPccnx4zssRxP9swe0KJR-Qa5Q3G9?usp=sharing
+
+---
 
 ## Developer
 
